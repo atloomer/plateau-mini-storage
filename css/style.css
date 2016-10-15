@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+
+/* Navigation */
+
+body {
+  background: #164062;
+  line-height: 160%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #164062;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+#nav-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  color: #164062;
+  width: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+nav li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  font-size: .7em;
+}
+
+nav a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nav-bar h1 {
+  font-size: 1em;
+  display: none;
+}
+
+#front-page {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Header Image */
+
+#front-page img {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Scroll Down */
+
+svg {
+  position: relative;
+  display: block;
+  width: 60px;
+  top: -29px;
+  margin: auto;
+}
+
+#about {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #164062;
+  width: 80%;
+  color: #fff;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-weight: lighter;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bus-storage {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bus-storage h1 {
+  width: 90%;
+  text-align: center;
+  color: #164062;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+#bus-storage h2 {
+  width: 90%;
+  text-align: center;
+  color: #164062;
+  padding: 0 0 120px 0;
+  font-weight: lighter;
+}
+
+#sizes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #164062;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  
+  #nav-bar {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  #nav-bar h1 {
+    font-size: 2em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 50px;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+  }
+  
+  nav li {
+    font-size: 1em;
+    padding: 20px;
+  }
+  
+  nav ul {
+    height: 100px;
+    margin-right: 50px;
+  }
+  
+  nav a {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1em;
+  }
+  
+  #front-page {
+    height: 70vh;
+  }
+  
+  #front-page img {
+    height: 70vh;
+  }
+  
+  svg {
+    width: 65px;
+    top: -33px;
+  }
+  
+  #about {
+    width: 40%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  
+  #bus-storage h1 {
+    width: 50%;
+  }
+  
+  #bus-storage h2 {
+    width: 50%;
+  }
+  
+}
