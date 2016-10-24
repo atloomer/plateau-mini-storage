@@ -183,7 +183,7 @@ nav li {
     height: 72px;
 }
 
-#box-tick-container {
+#box-tick-container, #tick-sizes-container {
     width: 100%;
     display: flex;
     -webkit-flex-direction: row;
@@ -200,4 +200,9 @@ nav li {
 
 #bx-one, #bx-two, #bx-three, #bx-four {
     border-right: .5px solid #fff;
+}
+
+.mini-sizes {
+    width: 20%;
+    height: 50px;
 }
