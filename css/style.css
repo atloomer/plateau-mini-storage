@@ -179,6 +179,25 @@ nav li {
 
 #false-right, #false-left {
     border-bottom: .5px solid #fff;
-    width: 40%;
+    width: 45%;
     height: 72px;
+}
+
+#box-tick-container {
+    width: 100%;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+.box-tick {
+    width: 20%;
+    height: 30px;
+}
+
+#bx-one, #bx-two, #bx-three, #bx-four {
+    border-right: .5px solid #fff;
 }
