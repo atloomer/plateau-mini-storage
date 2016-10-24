@@ -214,7 +214,6 @@ nav li {
 /*  Expanding  */
 
 #expanding {
-    position: absolute;
     width: 100%;
     display: flex;
     -webkit-flex-direction: column;
@@ -251,4 +250,24 @@ nav li {
     color: #fff;
     text-decoration: none;
     font-weight: lighter;
+}
+
+/*  Contact  */
+
+#contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    background: #4c4f52;
+    color: #fff;
+}
+
+.contact-sections {
+    width: 100%;
+    display: flex;
 }
