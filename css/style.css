@@ -96,7 +96,6 @@ nav li {
 
 #sizes {
     display: block;
-    position: absolute;
     width: 100%;
     background: #4c4f52;
     color: #fff;
@@ -202,7 +201,54 @@ nav li {
     border-right: .5px solid #fff;
 }
 
+#tick-sizes-container {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
 .mini-sizes {
     width: 20%;
     height: 50px;
+}
+
+/*  Expanding  */
+
+#expanding {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding: 80px 0;
+    background: #fff;
+    color: #4c4f52;
+}
+
+#expanding h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#expanding h4 {
+    font-weight: lighter;
+    font-size: 1.2em;
+    width: 50%;
+    margin: 0;
+    padding-bottom: 35px;
+    text-align: center;
+    line-height: 150%;
+}
+
+#expanding a {
+    background: #4c4f52;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
 }
