@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
 
 
 /* Navigation */
 
 body {
   background: #4c4f52;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
 }
 
 #nav-bar {
@@ -42,6 +44,11 @@ body {
     align-items: center;
     width: 100%;
     padding-right: 100px;
+}
+
+#number img {
+    width: 20px;
+    padding-right: 12px;
 }
 
 nav ul {
@@ -246,7 +253,7 @@ nav li {
 
 #expanding a {
     background: #4c4f52;
-    padding: 10px 15px;
+    padding: 10px 25px;
     color: #fff;
     text-decoration: none;
     font-weight: lighter;
@@ -270,15 +277,73 @@ nav li {
 .contact-sections {
     width: 50%;
     display: flex;
-    
+    line-height: 150%;
 }
 
 #left-contact {
-    margin-left: 7%;
+    margin-left: 13%;
+    display: flex;
+    justify-content: flex-start;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    padding: 100px 0;
+    text-align: left;
+}
+
+#left-contact a {
+    padding: 6px;
+    background: #fff;
+    width: 115px;
+    color: #4c4f52;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#left-contact h4 {
+    font-size: 2em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#left-contact p {
+    width: 70%;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+#right-contact li {
+    list-style-type: none;
+    padding-bottom: 50px;
+    font-size: 1.1em;
 }
 
 #right-contact {
-    margin-right: 7%;
+    padding: 100px 0;
+    margin-right: 13%;
+    display: flex;
+    text-align: right;
+    justify-content: flex-start;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    font-weight: lighter;
+}
+
+#right-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#right-contact p {
+    margin: 0;
 }
 
 /*  Footer  */
@@ -292,6 +357,20 @@ footer {
     -ms-flex-direction: column;
     -o-flex-direction: column;
     flex-direction: column;
+    color: #fff;
+    opacity: .3;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-size: .9em;
+}
+
+footer a {
+    color: #fff;
 }
 
 /*  End Footer*/

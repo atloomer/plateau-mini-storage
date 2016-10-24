@@ -16,3 +16,15 @@ $(function() {
 });
 
 // END SMOOTH SCROLLING
+
+//  COPYRIGHT DATE AUTO UPDATE
+
+// Get date
+var today = new Date();
+var year = today.getFullYear();
+console.log(year);
+
+// Set or display year
+$('.year').text(year);
+
+// END COPYRIGHT DATE
