@@ -35,6 +35,11 @@ body {
   letter-spacing: 2px;
     font-size: .95em;
     color: #4c4f52;
+    transition: .1s ease-out;
+}
+
+#nav-bar a:hover {
+    color: rgba(76, 79, 82, 0.77);
 }
 
 #nav-bar #number {
@@ -114,6 +119,21 @@ nav li {
     background: #fff;
     color: #4c4f52;
     text-align: center;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    border: 1px solid #fff;
+    transition: .2s ease-out;
+}
+
+#hero-container a:hover {
+    background: rgba(239, 239, 239, 0.9);
 }
 
 /* Header Image */
@@ -296,6 +316,11 @@ nav li {
     color: #fff;
     text-decoration: none;
     font-weight: lighter;
+    transition: .2s ease-out;
+}
+
+#expanding a:hover {
+    background: rgba(76, 79, 82, 0.74);
 }
 
 /*  Contact  */
@@ -342,6 +367,12 @@ nav li {
     font-size: .8em;
     font-weight: bold;
     margin-top: 10px;
+    border: 1px solid #fff;
+    transition: .2s ease-out;
+}
+
+#left-contact a:hover {
+    background: rgba(239, 239, 239, 0.7);
 }
 
 #left-contact h4 {
