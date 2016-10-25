@@ -9,6 +9,8 @@ body {
   letter-spacing: 1px;
 }
 
+@media screen and (min-width:768px) {
+
 #nav-bar {
     display: flex;
     background: #fff;
@@ -447,4 +449,6 @@ footer a {
 
 .hideme {
     opacity: 0;
+}
+    
 }
