@@ -28,3 +28,9 @@ console.log(year);
 $('.year').text(year);
 
 // END COPYRIGHT DATE
+
+// ASK USER IF THEY WANT TO SEND AN EMAIL
+
+$(document).ready(function(){
+	$('a').confirmMailto();
+});
