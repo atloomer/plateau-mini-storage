@@ -444,3 +444,7 @@ footer a {
 }
 
 /*  End Footer*/
+
+.hideme {
+    opacity: 0;
+}
