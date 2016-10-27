@@ -80,15 +80,7 @@ nav li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-    overflow: hidden;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  overflow: hidden;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -146,7 +138,6 @@ nav li {
 /* Header Image */
 
 #front-page img {
-    margin: auto;
     top: 50px;
     position: absolute;
   width: 100%;
@@ -551,20 +542,6 @@ nav li {
 #front-page {
   width: 100%;
   height: 80vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-    overflow: hidden;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Raleway', sans-serif;
 }
 
 #hero-container {
