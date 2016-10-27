@@ -379,7 +379,7 @@ nav li {
     -ms-flex-direction: column;
     -o-flex-direction: column;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 100px 0 50px 0;
     text-align: left;
     margin: auto;
 }
