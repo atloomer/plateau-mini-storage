@@ -305,6 +305,15 @@ nav li {
 
 /*  Expanding  */
 
+#desk-expanding {
+    display: none;
+}
+
+#mobile-expanding {
+    display: flex;
+    text-align: center;
+}
+
 #expanding {
     width: 100%;
     display: flex;
@@ -328,12 +337,13 @@ nav li {
 
 #expanding h4 {
     font-weight: lighter;
-    font-size: 1.2em;
-    width: 50%;
+    font-size: 1em;
+    width: 90%;
     margin: 0;
     padding-bottom: 35px;
     text-align: center;
     line-height: 150%;
+    justify-content: center;
 }
 
 #expanding a {
@@ -365,13 +375,12 @@ nav li {
 }
 
 .contact-sections {
-    width: 50%;
+    width: 80%;
     display: flex;
     line-height: 150%;
 }
 
 #left-contact {
-    margin-left: 13%;
     display: flex;
     justify-content: flex-start;
     -webkit-flex-direction: column;
@@ -379,8 +388,9 @@ nav li {
     -ms-flex-direction: column;
     -o-flex-direction: column;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: left;
+    margin: auto;
 }
 
 #left-contact a {
@@ -408,22 +418,27 @@ nav li {
 }
 
 #left-contact p {
-    width: 70%;
+    width: 100%;
     font-weight: lighter;
     font-size: 1.1em;
 }
 
 #right-contact li {
     list-style-type: none;
-    padding-bottom: 50px;
     font-size: 1.1em;
+    padding: 20px 0;
+}
+
+#right-contact ul {
+    text-align: left;
+    padding: 0;
 }
 
 #right-contact {
-    padding: 100px 0;
-    margin-right: 13%;
+    width: 80%;
+    margin: auto;
     display: flex;
-    text-align: right;
+    text-align: left;
     justify-content: flex-start;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -457,6 +472,7 @@ footer {
     opacity: .3;
     padding-bottom: 30px;
     font-weight: lighter;
+    padding-top: 100px;
 }
 
 footer p {
@@ -759,6 +775,15 @@ nav li {
 }
 
 /*  Expanding  */
+    
+#mobile-expanding {
+    display: none;
+}
+    
+#desk-expanding {
+    display: flex;
+    text-align: center;
+}
 
 #expanding {
     width: 100%;
@@ -870,13 +895,16 @@ nav li {
 
 #right-contact li {
     list-style-type: none;
-    padding-bottom: 50px;
     font-size: 1.1em;
+}
+    
+#right-contact ul {
+     align-self: center;  
 }
 
 #right-contact {
-    padding: 100px 0;
-    margin-right: 13%;
+    width: 50%;
+    padding-top: 0;
     display: flex;
     text-align: right;
     justify-content: flex-start;
@@ -912,6 +940,7 @@ footer {
     opacity: .3;
     padding-bottom: 30px;
     font-weight: lighter;
+    padding-top: 20px;
 }
 
 footer p {
