@@ -146,6 +146,7 @@ nav li {
 /* Header Image */
 
 #front-page img {
+    margin: auto;
     top: 50px;
     position: absolute;
   width: 100%;
