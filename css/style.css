@@ -108,6 +108,7 @@ nav li {
     line-height: 130%;
     text-shadow: 0 0 44px #000;
     letter-spacing: .3px;
+    opacity: 1;
 }
 
 #hero-container a {
