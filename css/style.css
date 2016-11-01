@@ -82,6 +82,7 @@ nav li {
   display: flex;
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 
 #hero-container {
