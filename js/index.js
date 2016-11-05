@@ -34,3 +34,16 @@ $('.year').text(year);
 $(document).ready(function(){
 	$('a').confirmMailto();
 });
+
+//  carousel
+
+$('.carousel').flickity({
+
+  cellAlign: 'left',
+  contain: true,
+  wrapAround: true,
+  freeScroll: true,
+  autoPlay: 2000,
+  pageDots: false
+    
+});
