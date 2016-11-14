@@ -31,6 +31,8 @@ nav {
     -o-flex-direction: row;
     flex-direction: row;
     justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
 }
 
 #nav-bar h1 {
@@ -39,6 +41,10 @@ nav {
     align-self: center;
     font-size: 1.2em;
     margin-left: 5px;
+}
+
+#nav-bar a img {
+    width: 5em;
 }
 
 #nav-bar a {
@@ -578,13 +584,18 @@ footer a {
     padding-right: 20px;
     color: #4c4f52;
 }
+    
+#nav-bar a img {
+    width: 7em;
+}
 
 #nav-bar a {
   text-decoration: none;
   letter-spacing: 2px;
-    font-size: .95em;
-    color: #233830;
-    transition: .1s ease-out;
+  font-size: .95em;
+  color: #233830;
+  transition: .1s ease-out;
+  padding: 20px 0;
 }
 
 #nav-bar a:hover {
