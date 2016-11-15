@@ -50,9 +50,10 @@ nav {
 #nav-bar a {
   text-decoration: none;
   letter-spacing: 2px;
-    font-size: .95em;
-    color: #233830;
-    transition: .1s ease-out;
+  font-size: .95em;
+  color: #233830;
+  transition: .1s ease-out;
+  padding: 20px 0;
 }
 
 #nav-bar a:hover {
