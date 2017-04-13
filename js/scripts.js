@@ -1,7 +1,7 @@
 // Front Page Animation with Greensock
 
-var tl1 = new TimelineMax({ delay: .7 });
+var tl1 = new TimelineMax({ delay: .4 });
 
-tl1.from('#header-photo', .6, {opacity:0});
-tl1.from('#bus-name', .6, {opacity:0,y:20,ease: Circ.easeOut});
-tl1.from('#reserve-button', .6, {opacity:0,y:20,ease: Circ.easeOut},'=-.2');
+tl1.from('#header-photo', .8, {opacity:0});
+tl1.from('#bus-name', .9, {opacity:0,y:15,ease: Power4.easeOut});
+tl1.from('#reserve-button', .9, {opacity:0,y:15,ease: Power4.easeOut},'=-.85');
