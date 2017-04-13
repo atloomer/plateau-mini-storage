@@ -29,13 +29,7 @@ $('.year').text(year);
 
 // END COPYRIGHT DATE
 
-// ASK USER IF THEY WANT TO SEND AN EMAIL
-
-$(document).ready(function(){
-	$('a').confirmMailto();
-});
-
-//  carousel
+//  Carousel
 
 $('.carousel').flickity({
 
@@ -45,5 +39,5 @@ $('.carousel').flickity({
   freeScroll: true,
   autoPlay: 2000,
   pageDots: false
-    
+
 });
