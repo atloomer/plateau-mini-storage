@@ -100,6 +100,9 @@ nav li {
     position: absolute;
     width: 100%;
     height: 80vh;
+    -webkit-transition: all .8s ease-Out;
+    -o-transition: all .8s ease-Out;
+    transition: all .8s ease-Out;
     display: flex;
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -149,10 +152,10 @@ nav li {
 /* Header Image */
 
 #front-page img {
-    top: 50px;
+    top: 0;
     position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 115vh;
   -o-object-fit: cover;
      object-fit: cover;
     opacity: .9;
@@ -544,7 +547,7 @@ footer a {
 /*  TABLET */
 
 @media screen and (min-width: 540px) {
-    
+
 .carousel {
     width: 100%;
     height: 240px;
@@ -558,7 +561,7 @@ footer a {
   margin: 0 auto;
   padding: 0;
 }
-    
+
 }
 
 /*  DESKTOP  */
@@ -586,7 +589,7 @@ footer a {
     padding-right: 20px;
     color: #4c4f52;
 }
-    
+
 #nav-bar a img {
     width: 7em;
 }
@@ -688,10 +691,10 @@ nav li {
 /* Header Image */
 
 #front-page img {
-    top: 70px;
+    top: 0;
     position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 115vh;
   -o-object-fit: cover;
      object-fit: cover;
     opacity: .9;
@@ -707,7 +710,7 @@ nav li {
     font-size: 1.24em;
     line-height: 150%;
 }
-    
+
 #about p {
     font-size: 1em;
     margin: 0;
@@ -740,7 +743,7 @@ nav li {
     text-transform: uppercase;
     font-size: 1.5em;
 }
-    
+
 #sizes h3 {
     font-weight: bold;
 }
@@ -790,7 +793,7 @@ nav li {
     font-size: 1.3em;
     margin-bottom: 100px;
 }
-    
+
 #top-mobile-dividers, #bottom-mobile-dividers {
     display: none;
 }
@@ -843,11 +846,11 @@ nav li {
 }
 
 /*  Expanding  */
-    
+
 #mobile-expanding {
     display: none;
 }
-    
+
 #desk-expanding {
     display: flex;
     text-align: center;
@@ -896,7 +899,7 @@ nav li {
 #expanding a:hover {
     background: rgba(35, 56, 48, 0.69);
 }
-    
+
 /*  Desktop Carousel  */
 .carousel {
     width: 100%;
@@ -980,9 +983,9 @@ nav li {
     list-style-type: none;
     font-size: 1.1em;
 }
-    
+
 #right-contact ul {
-     align-self: center;  
+     align-self: center;
 }
 
 #right-contact {
@@ -1007,7 +1010,7 @@ nav li {
 #right-contact p {
     margin: 0;
 }
-    
+
 /*  Scroll to Top  */
     #to-top {
         padding: 20px 0 50px 0;
@@ -1047,7 +1050,7 @@ footer a {
 
 /*  For Carousel  */
 @media screen and (min-width: 1000px) {
-    
+
 .carousel {
     width: 100%;
     height: 300px;
@@ -1061,5 +1064,5 @@ footer a {
   margin: 0 auto;
   padding: 0;
 }
-    
+
 }

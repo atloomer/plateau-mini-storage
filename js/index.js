@@ -17,6 +17,22 @@ $(function() {
 
 // END SMOOTH SCROLLING
 
+// PARALLAX EFFECT FOR LANDING PAGE
+
+$(window).scroll(function(e){
+  parallax();
+});
+
+function parallax(){
+  var scrolled = $(window).scrollTop();
+  $('.background').css('top',-(scrolled*0.1)+'px');
+}
+
+$(window).scroll(function(){
+    var fromtop = $(document).scrollTop();
+    $('#hero-container').css({opacity: 200-fromtop});
+});
+
 //  COPYRIGHT DATE AUTO UPDATE
 
 // Get date

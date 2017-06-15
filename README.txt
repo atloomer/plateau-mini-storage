@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/atloomer/pen/EgQPrj.
-
- 
+Website Designed and Developed by Alex Loomer.
+© Plateau Mini Storage East Wenatchee, WA
+All Rights Reserved
