@@ -236,6 +236,7 @@ ul.size-container {
 }
 
 ul.size-container li {
+  opacity: 0;
   width: 48%;
   margin: 3px;
   display: flex;
@@ -247,6 +248,7 @@ ul.size-container li {
   justify-content: space-between;
   text-align: center;
   position: relative;
+  margin-top: 30px;
 }
 
 ul.size-container li figure {
@@ -759,7 +761,7 @@ ul.size-container {
 }
 
 ul.size-container li figure {
-  top: 20px;
+  top: 25px;
 }
 
 li figure img {
@@ -772,13 +774,14 @@ ul.size-container li {
 }
 
 .size h4 {
-  padding: 90px 0 5px 0;
+  padding: 100px 0 5px 0;
   font-size: 2em;
 }
 
 .size-info p {
   font-size: .9em;
   padding: 20px 0 50px 0;
+  width: 85%;
 }
 
 /*  Expanding  */
@@ -808,7 +811,7 @@ ul.size-container li {
 #expanding h4 {
     font-weight: lighter;
     font-size: 1.2em;
-    width: 50%;
+    width: 40%;
     margin: 0;
     padding-bottom: 35px;
     text-align: center;
