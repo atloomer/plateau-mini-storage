@@ -52,7 +52,7 @@ $(document).ready(function() {
         $(this).animate({
           'opacity': '1',
           'margin-top': '3px'
-        }, 600);
+        }, 800);
 
       }
 
